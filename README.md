@@ -44,3 +44,12 @@ commonds
 -npx convex dev (keep the terminal running)
 
 - convex and clerk setup ( check ConvexClientProvider.tsx) and wrap the children component in layout.tsx in ConvexClientProvider
+
+
+create a webhook in clerk for user created and save the it convex -- go to convex  /settings/ environment variables 
+
+-npm i svix  // this is what clerk uses 
+if get error installing npm i svix use  npm i svix --legacy-peers-deps
+
+
+--http.ts file verifies the webhook send by clerk 
