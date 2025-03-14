@@ -53,3 +53,5 @@ if get error installing npm i svix use  npm i svix --legacy-peers-deps
 
 
 --http.ts file verifies the webhook send by clerk 
+
+started video at 47 min 
